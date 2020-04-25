@@ -3,7 +3,6 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
-use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\VerifiesEmails;
 
 class VerificationController extends Controller
@@ -26,7 +25,7 @@ class VerificationController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = RouteServiceProvider::HOME;
+    protected $redirectTo = '/';
 
     /**
      * Create a new controller instance.
@@ -35,8 +34,11 @@ class VerificationController extends Controller
      */
     public function __construct()
     {
+        // 所有的控制器操作都必须登录后才能访问
         $this->middleware('auth');
+        // signed: url 签名认证方式
         $this->middleware('signed')->only('verify');
+        // throttle 中间件：访问频率限制功能，接收两个参数，决定了在给定的分钟数内可以进行的最大请求数
         $this->middleware('throttle:6,1')->only('verify', 'resend');
     }
 }
