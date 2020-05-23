@@ -17,6 +17,12 @@
 
 Route::get('/', 'PagesController@root')->name('root');
 
+Route::resource('users', 'UsersController', ['only' => ['show', 'update', 'edit']]);
+// 上述代码等同于
+//Route::get('/users/{user}', 'UsersController@show')->name('users.show');
+//Route::get('/users/{user}/edit', 'UsersController@edit')->name('users.edit'); // 显示编辑个人资料页面
+//Route::patch('users/{user}', 'UsersController@update')->name('users.update'); // 处理 edit 页面提交的更改
+
 // 用户认证路由 -> start
 //Auth::routes();
 // 用户身份验证相关的路由
