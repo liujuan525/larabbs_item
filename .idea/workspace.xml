@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="52162c7e-e875-4849-932b-3c3df9b474d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UserRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/UserRequest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +163,7 @@
       <workItem from="1587796186004" duration="3039000" />
       <workItem from="1589074011668" duration="306000" />
       <workItem from="1589077319447" duration="372000" />
-      <workItem from="1590231585390" duration="8882000" />
+      <workItem from="1590231585390" duration="9523000" />
     </task>
     <servers />
   </component>
@@ -190,9 +189,9 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="754" y="83" width="837" height="825" key="find.popup/0.23.1680.947@0.23.1680.947" timestamp="1587655093624" />
-    <state x="501" y="232" width="670" height="676" key="search.everywhere.popup" timestamp="1590233493898">
+    <state x="501" y="232" width="670" height="676" key="search.everywhere.popup" timestamp="1590298989078">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="501" y="232" width="670" height="676" key="search.everywhere.popup/-1600.91.1600.877/0.23.1680.947@0.23.1680.947" timestamp="1590233493898" />
+    <state x="501" y="232" width="670" height="676" key="search.everywhere.popup/-1600.91.1600.877/0.23.1680.947@0.23.1680.947" timestamp="1590298989078" />
   </component>
 </project>
